@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomUICollectionViewLayout.h
 //  自定义CollectionViewLayout
 //
 //  Created by 辛忠志 on 2017/6/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CustomUICollectionViewLayout : UICollectionViewFlowLayout
 
 @end

@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		C4C7A01C1EF0D8BE0071AE10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C7A01B1EF0D8BE0071AE10 /* main.m */; };
 		C4C7A01F1EF0D8BE0071AE10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C7A01E1EF0D8BE0071AE10 /* AppDelegate.m */; };
-		C4C7A0221EF0D8BE0071AE10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C7A0211EF0D8BE0071AE10 /* ViewController.m */; };
 		C4C7A0251EF0D8BE0071AE10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C7A0231EF0D8BE0071AE10 /* Main.storyboard */; };
 		C4C7A0271EF0D8BE0071AE10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C7A0261EF0D8BE0071AE10 /* Assets.xcassets */; };
 		C4C7A02A1EF0D8BE0071AE10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C7A0281EF0D8BE0071AE10 /* LaunchScreen.storyboard */; };
 		C4C7A0351EF0D8BF0071AE10 /* ___CollectionViewLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C7A0341EF0D8BF0071AE10 /* ___CollectionViewLayoutTests.m */; };
 		C4C7A0401EF0D8BF0071AE10 /* ___CollectionViewLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C7A03F1EF0D8BF0071AE10 /* ___CollectionViewLayoutUITests.m */; };
+		C4C7A0501EF0D8EB0071AE10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C7A04E1EF0D8EB0071AE10 /* ViewController.m */; };
+		C4C7A0511EF0D8EB0071AE10 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C7A04F1EF0D8EB0071AE10 /* ViewController.xib */; };
+		C4C7A0541EF0D9430071AE10 /* CustomUICollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C7A0531EF0D9430071AE10 /* CustomUICollectionViewLayout.m */; };
+		C4C7A0581EF0DA080071AE10 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C7A0561EF0DA080071AE10 /* CustomCollectionViewCell.m */; };
+		C4C7A0591EF0DA080071AE10 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C7A0571EF0DA080071AE10 /* CustomCollectionViewCell.xib */; };
+		C4C7A05B1EF0DA190071AE10 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C4C7A05A1EF0DA190071AE10 /* timg.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,6 @@
 		C4C7A01B1EF0D8BE0071AE10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4C7A01D1EF0D8BE0071AE10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4C7A01E1EF0D8BE0071AE10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4C7A0201EF0D8BE0071AE10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C4C7A0211EF0D8BE0071AE10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C4C7A0241EF0D8BE0071AE10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4C7A0261EF0D8BE0071AE10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4C7A0291EF0D8BE0071AE10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,15 @@
 		C4C7A03B1EF0D8BF0071AE10 /* 自定义CollectionViewLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义CollectionViewLayoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C7A03F1EF0D8BF0071AE10 /* ___CollectionViewLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___CollectionViewLayoutUITests.m"; sourceTree = "<group>"; };
 		C4C7A0411EF0D8BF0071AE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C7A04D1EF0D8EB0071AE10 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4C7A04E1EF0D8EB0071AE10 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4C7A04F1EF0D8EB0071AE10 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		C4C7A0521EF0D9430071AE10 /* CustomUICollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUICollectionViewLayout.h; sourceTree = "<group>"; };
+		C4C7A0531EF0D9430071AE10 /* CustomUICollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUICollectionViewLayout.m; sourceTree = "<group>"; };
+		C4C7A0551EF0DA080071AE10 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		C4C7A0561EF0DA080071AE10 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
+		C4C7A0571EF0DA080071AE10 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		C4C7A05A1EF0DA190071AE10 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +113,17 @@
 		C4C7A0191EF0D8BE0071AE10 /* 自定义CollectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
+				C4C7A05A1EF0DA190071AE10 /* timg.jpeg */,
 				C4C7A01D1EF0D8BE0071AE10 /* AppDelegate.h */,
 				C4C7A01E1EF0D8BE0071AE10 /* AppDelegate.m */,
-				C4C7A0201EF0D8BE0071AE10 /* ViewController.h */,
-				C4C7A0211EF0D8BE0071AE10 /* ViewController.m */,
+				C4C7A04D1EF0D8EB0071AE10 /* ViewController.h */,
+				C4C7A04E1EF0D8EB0071AE10 /* ViewController.m */,
+				C4C7A04F1EF0D8EB0071AE10 /* ViewController.xib */,
+				C4C7A0551EF0DA080071AE10 /* CustomCollectionViewCell.h */,
+				C4C7A0561EF0DA080071AE10 /* CustomCollectionViewCell.m */,
+				C4C7A0571EF0DA080071AE10 /* CustomCollectionViewCell.xib */,
+				C4C7A0521EF0D9430071AE10 /* CustomUICollectionViewLayout.h */,
+				C4C7A0531EF0D9430071AE10 /* CustomUICollectionViewLayout.m */,
 				C4C7A0231EF0D8BE0071AE10 /* Main.storyboard */,
 				C4C7A0261EF0D8BE0071AE10 /* Assets.xcassets */,
 				C4C7A0281EF0D8BE0071AE10 /* LaunchScreen.storyboard */,
@@ -248,6 +267,9 @@
 			files = (
 				C4C7A02A1EF0D8BE0071AE10 /* LaunchScreen.storyboard in Resources */,
 				C4C7A0271EF0D8BE0071AE10 /* Assets.xcassets in Resources */,
+				C4C7A05B1EF0DA190071AE10 /* timg.jpeg in Resources */,
+				C4C7A0511EF0D8EB0071AE10 /* ViewController.xib in Resources */,
+				C4C7A0591EF0DA080071AE10 /* CustomCollectionViewCell.xib in Resources */,
 				C4C7A0251EF0D8BE0071AE10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4C7A0221EF0D8BE0071AE10 /* ViewController.m in Sources */,
+				C4C7A0501EF0D8EB0071AE10 /* ViewController.m in Sources */,
 				C4C7A01F1EF0D8BE0071AE10 /* AppDelegate.m in Sources */,
 				C4C7A01C1EF0D8BE0071AE10 /* main.m in Sources */,
+				C4C7A0541EF0D9430071AE10 /* CustomUICollectionViewLayout.m in Sources */,
+				C4C7A0581EF0DA080071AE10 /* CustomCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
